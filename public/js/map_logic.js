@@ -18,7 +18,7 @@ const accidentIcon = L.divIcon({
 });
 
 // Fetch the GeoJSON data
-fetch('kerala_accident_blackspots.geojson')
+fetch('data/kerala_accident_blackspots.geojson')
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
