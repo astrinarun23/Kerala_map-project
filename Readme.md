@@ -1,49 +1,41 @@
-# Kerala Accident Blackspots Dashboard
+# 🗺️ Kerala Accident Blackspots Dashboard
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-An interactive, data-driven dashboard created to visualize and analyze road accident blackspots across various districts in Kerala. This project aims to provide an accessible tool for public awareness, research, and policy-making by presenting key accident statistics on an interactive map and through analytical charts.
+An interactive, data-driven dashboard created to visualize and analyze road accident blackspots across various districts in Kerala. This project uses Leaflet.js to plot GeoJSON data onto an interactive map.
 
-## Features
+## ✨ Features
 
-* **Interactive Map**: Displays all accident blackspots geographically, with pop-ups showing key details like total accidents and fatalities for each location.
-* **Data Dashboard**: Presents aggregated data through a series of charts, including:
-    * Number of blackspots per district.
-    * The top 5 most dangerous locations by total casualties.
-    * A breakdown of accidents by road type (NH, SH, City Road).
-* **Responsive Design**: A clean, user-friendly interface that works on various screen sizes.
+* 📍 **Interactive Map**: Displays all accident blackspots geographically from the `kerala_accident_blackspots.geojson` file.
+* 🖱️ **Dynamic Pop-ups**: Clicking on a location reveals key data such as the name, district, total accidents, and fatalities.
+* 🌐 **Live Data**: Fetches and renders the GeoJSON data dynamically using JavaScript.
+* 🎨 **Simple Styling**: Clean and straightforward user interface using CSS.
 
-## Data Source
+## 🛠️ Technologies Used
 
-The analysis is based on a GeoJSON file (`kerala_accident_blackspots.geojson`) detailing accident statistics for specific locations in Kerala. The dataset for each blackspot includes geographical coordinates, total number of accidents, casualties, and common contributing factors like collision type and weather conditions.
+This project is built with fundamental web technologies:
 
-## Technologies Used
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=Leaflet&logoColor=white)
 
-* **Frontend**: HTML5, CSS3, JavaScript
-* **Mapping Library**: [Leaflet.js](https://leafletjs.com/)
-* **Charting Library**: [Chart.js](https://www.chartjs.org/)
-* **Development Server**: [http-server](https://www.npmjs.com/package/http-server) (via Node.js and npm)
+## 🚀 How to View the Project
 
-## Getting Started
+Since this is a simple frontend project, you can run it in two ways:
 
-To run this project locally, you will need to have [Node.js](https://nodejs.org/) and npm installed on your machine.
+1.  **Using a Live Server:**
+    * If you have a code editor like VS Code, you can install the "Live Server" extension.
+    * Right-click on the `index.html` file and select "Open with Live Server".
 
-### Installation & Setup
+2.  **Using GitHub Pages:**
+    * Go to your repository's **Settings** tab.
+    * Navigate to the **Pages** section on the left sidebar.
+    * Under "Build and deployment", select the source as **Deploy from a branch**.
+    * Choose the `main` branch (or whichever is your default) and `/ (root)` folder, then click **Save**.
+    * Your site will be live at `https://astrinarun23.github.io/Kerala_map-project/` in a few minutes.
 
-1.  **Clone the repository (or create the files manually):**
-    ```sh
-    git clone <your-repository-url>
-    cd kerala-accident-dashboard
-    ```
+## 📄 License
 
-2.  **Install development dependencies:**
-    This command will read the `package.json` file and install the local web server.
-    ```sh
-    npm install
-    ```
+This project is licensed under the **MIT License**.
 
-3.  **Run the local server:**
-    This script will start the `http-server` and automatically open the website in your default browser.
-    ```sh
-    npm start
-    ```
-
-You should now be able to view the interactive map and navigate to the dashboard and about pages.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
