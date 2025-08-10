@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Kerala Road Safety</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Interactive Map</a>
+            <a href="dashboard.html" class="active">Dashboard</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Data & Insights</h1>
+        <div class="chart-container">
+            <h2>Accident Blackspots by District</h2>
+            <canvas id="districtChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Top 5 Most Dangerous Blackspots (by Total Casualties)</h2>
+            <canvas id="casualtiesChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Accidents by Road Type</h2>
+            <canvas id="roadTypeChart"></canvas>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>

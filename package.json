@@ -1,0 +1,16 @@
+{
+  "name": "kerala-accident-dashboard",
+  "version": "1.0.0",
+  "description": "An interactive dashboard visualizing accident blackspots in Kerala using HTML, CSS, and JavaScript.",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server . -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Astrin Arun",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

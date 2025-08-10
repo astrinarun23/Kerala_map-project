@@ -1,0 +1,557 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.92956,
+          8.55928
+        ]
+      },
+      "properties": {
+        "name": "Pettah",
+        "district": "Thiruvananthapuram",
+        "total_accidents": 56,
+        "total_fatalities": 5,
+        "total_grievous_injuries": 28,
+        "total_minor_injuries": 43,
+        "total_casualties": 76,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9458,
+          8.5244
+        ]
+      },
+      "properties": {
+        "name": "Thampanoor",
+        "district": "Thiruvananthapuram",
+        "total_accidents": 41,
+        "total_fatalities": 3,
+        "total_grievous_injuries": 12,
+        "total_minor_injuries": 42,
+        "total_casualties": 57,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9537,
+          8.5073
+        ]
+      },
+      "properties": {
+        "name": "East Fort",
+        "district": "Thiruvananthapuram",
+        "total_accidents": 40,
+        "total_fatalities": 1,
+        "total_grievous_injuries": 19,
+        "total_minor_injuries": 35,
+        "total_casualties": 55,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "City Road",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9984,
+          8.489
+        ]
+      },
+      "properties": {
+        "name": "Thiruvallam",
+        "district": "Thiruvananthapuram",
+        "total_accidents": 38,
+        "total_fatalities": 14,
+        "total_grievous_injuries": 20,
+        "total_minor_injuries": 27,
+        "total_casualties": 61,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8436,
+          8.6948
+        ]
+      },
+      "properties": {
+        "name": "Attingal",
+        "district": "Thiruvananthapuram",
+        "total_accidents": 26,
+        "total_fatalities": 7,
+        "total_grievous_injuries": 11,
+        "total_minor_injuries": 19,
+        "total_casualties": 37,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.7149,
+          8.7391
+        ]
+      },
+      "properties": {
+        "name": "Kallambalam",
+        "district": "Thiruvananthapuram",
+        "total_accidents": 22,
+        "total_fatalities": 6,
+        "total_grievous_injuries": 11,
+        "total_minor_injuries": 20,
+        "total_casualties": 37,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9748,
+          8.5524
+        ]
+      },
+      "properties": {
+        "name": "Pattom",
+        "district": "Thiruvananthapuram",
+        "total_accidents": 21,
+        "total_fatalities": 3,
+        "total_grievous_injuries": 1,
+        "total_minor_injuries": 26,
+        "total_casualties": 30,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "SH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.994,
+          8.6013
+        ]
+      },
+      "properties": {
+        "name": "Sreekaryam",
+        "district": "Thiruvananthapuram",
+        "total_accidents": 19,
+        "total_fatalities": 6,
+        "total_grievous_injuries": 10,
+        "total_minor_injuries": 11,
+        "total_casualties": 27,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.7083,
+          8.8943
+        ]
+      },
+      "properties": {
+        "name": "Parippally",
+        "district": "Kollam",
+        "total_accidents": 41,
+        "total_fatalities": 5,
+        "total_grievous_injuries": 12,
+        "total_minor_injuries": 52,
+        "total_casualties": 69,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6235,
+          8.9229
+        ]
+      },
+      "properties": {
+        "name": "Kottiyam",
+        "district": "Kollam",
+        "total_accidents": 30,
+        "total_fatalities": 7,
+        "total_grievous_injuries": 17,
+        "total_minor_injuries": 17,
+        "total_casualties": 41,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6433,
+          9.0411
+        ]
+      },
+      "properties": {
+        "name": "Chavara",
+        "district": "Kollam",
+        "total_accidents": 26,
+        "total_fatalities": 5,
+        "total_grievous_injuries": 14,
+        "total_minor_injuries": 19,
+        "total_casualties": 38,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.587,
+          8.8878
+        ]
+      },
+      "properties": {
+        "name": "Chinnakada",
+        "district": "Kollam",
+        "total_accidents": 20,
+        "total_fatalities": 0,
+        "total_grievous_injuries": 7,
+        "total_minor_injuries": 21,
+        "total_casualties": 28,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "City Road",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Traffic Signal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6578,
+          9.215
+        ]
+      },
+      "properties": {
+        "name": "Karunagapally",
+        "district": "Kollam",
+        "total_accidents": 20,
+        "total_fatalities": 2,
+        "total_grievous_injuries": 8,
+        "total_minor_injuries": 24,
+        "total_casualties": 34,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.5222,
+          9.4827
+        ]
+      },
+      "properties": {
+        "name": "Alappuzha",
+        "district": "Alappuzha",
+        "total_accidents": 105,
+        "total_fatalities": 14,
+        "total_grievous_injuries": 41,
+        "total_minor_injuries": 113,
+        "total_casualties": 168,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.4087,
+          9.5932
+        ]
+      },
+      "properties": {
+        "name": "Cherthala",
+        "district": "Alappuzha",
+        "total_accidents": 67,
+        "total_fatalities": 12,
+        "total_grievous_injuries": 33,
+        "total_minor_injuries": 68,
+        "total_casualties": 113,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.5684,
+          9.2941
+        ]
+      },
+      "properties": {
+        "name": "Haripad",
+        "district": "Alappuzha",
+        "total_accidents": 41,
+        "total_fatalities": 9,
+        "total_grievous_injuries": 16,
+        "total_minor_injuries": 45,
+        "total_casualties": 70,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.5111,
+          9.3366
+        ]
+      },
+      "properties": {
+        "name": "Ambalapuzha",
+        "district": "Alappuzha",
+        "total_accidents": 30,
+        "total_fatalities": 8,
+        "total_grievous_injuries": 13,
+        "total_minor_injuries": 27,
+        "total_casualties": 48,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.3285,
+          10.239
+        ]
+      },
+      "properties": {
+        "name": "Angamaly",
+        "district": "Ernakulam",
+        "total_accidents": 104,
+        "total_fatalities": 15,
+        "total_grievous_injuries": 49,
+        "total_minor_injuries": 98,
+        "total_casualties": 162,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.3053,
+          10.162
+        ]
+      },
+      "properties": {
+        "name": "Aluva",
+        "district": "Ernakulam",
+        "total_accidents": 75,
+        "total_fatalities": 5,
+        "total_grievous_injuries": 27,
+        "total_minor_injuries": 81,
+        "total_casualties": 113,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2999,
+          9.9816
+        ]
+      },
+      "properties": {
+        "name": "Edapally",
+        "district": "Ernakulam",
+        "total_accidents": 63,
+        "total_fatalities": 4,
+        "total_grievous_injuries": 21,
+        "total_minor_injuries": 66,
+        "total_casualties": 91,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Traffic Signal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.3537,
+          9.9629
+        ]
+      },
+      "properties": {
+        "name": "Tripunithura",
+        "district": "Ernakulam",
+        "total_accidents": 41,
+        "total_fatalities": 3,
+        "total_grievous_injuries": 19,
+        "total_minor_injuries": 39,
+        "total_casualties": 61,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "SH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.411,
+          10.023
+        ]
+      },
+      "properties": {
+        "name": "Muvattupuzha",
+        "district": "Ernakulam",
+        "total_accidents": 38,
+        "total_fatalities": 7,
+        "total_grievous_injuries": 21,
+        "total_minor_injuries": 35,
+        "total_casualties": 63,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "SH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Uncontrolled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2871,
+          9.967
+        ]
+      },
+      "properties": {
+        "name": "Vytilla",
+        "district": "Ernakulam",
+        "total_accidents": 35,
+        "total_fatalities": 1,
+        "total_grievous_injuries": 12,
+        "total_minor_injuries": 41,
+        "total_casualties": 54,
+        "most_common_accident_type": "Non-Fatal",
+        "most_common_collision": "Collision with Vehicle",
+        "most_common_road_type": "NH",
+        "most_common_weather": "Sunny/Clear",
+        "most_common_traffic_control": "Traffic Signal"
+      }
+    }
+  ]
+}
