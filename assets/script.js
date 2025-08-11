@@ -20,6 +20,7 @@ async function getAccidentData() {
         return data.features;
     } catch (error) {
         console.error('Error fetching accident data:', error);
+        // Return empty array as fallback
         return [];
     }
 }
@@ -27,6 +28,11 @@ async function getAccidentData() {
 // --- MAP INITIALIZATION (for index.html) ---
 async function initializeMap() {
     const features = await getAccidentData();
+
+    if (features.length === 0) {
+        document.getElementById('map').innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 600px; color: #666;">Failed to load accident data. Please check if the data file exists.</div>';
+        return;
+    }
 
     // Initialize the map and set its view to Kerala's approximate center
     const map = L.map('map').setView([9.9, 76.5], 8);
@@ -44,22 +50,30 @@ async function initializeMap() {
 
         const marker = L.marker([lat, lon]).addTo(map);
 
-        // Create popup content
+        // Create popup content with more details
         const popupContent = `
-            <b>${properties.name}</b><br>
-            District: ${properties.district}<br>
-            Total Accidents: ${properties.total_accidents}<br>
-            Total Fatalities: ${properties.total_fatalities}
+            <div style="font-family: Arial, sans-serif;">
+                <h3 style="margin: 0 0 10px 0; color: #004a99;">${properties.name}</h3>
+                <p><strong>District:</strong> ${properties.district}</p>
+                <p><strong>Total Accidents:</strong> ${properties.total_accidents}</p>
+                <p><strong>Total Fatalities:</strong> ${properties.total_fatalities}</p>
+                <p><strong>Total Casualties:</strong> ${properties.total_casualties}</p>
+                <p><strong>Road Type:</strong> ${properties.most_common_road_type}</p>
+            </div>
         `;
 
         marker.bindPopup(popupContent);
     });
 }
 
-
 // --- DASHBOARD INITIALIZATION (for dashboard.html) ---
 async function initializeDashboard() {
     const features = await getAccidentData();
+
+    if (features.length === 0) {
+        document.querySelector('.chart-container').innerHTML = '<div style="text-align: center; color: #666; padding: 2rem;">Failed to load accident data. Please check if the data file exists.</div>';
+        return;
+    }
 
     // --- Chart 1: Blackspots by District ---
     const districtCounts = features.reduce((acc, feature) => {
@@ -83,7 +97,13 @@ async function initializeDashboard() {
         },
         options: {
             scales: { y: { beginAtZero: true } },
-            responsive: true
+            responsive: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Distribution of Accident Blackspots by District'
+                }
+            }
         }
     });
 
@@ -106,7 +126,13 @@ async function initializeDashboard() {
         },
         options: {
             indexAxis: 'y', // Horizontal bar chart
-            responsive: true
+            responsive: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Top 5 Most Dangerous Blackspots by Total Casualties'
+                }
+            }
         }
     });
 
@@ -129,10 +155,23 @@ async function initializeDashboard() {
                     'rgba(255, 159, 64, 0.7)',
                     'rgba(75, 192, 192, 0.7)',
                     'rgba(54, 162, 235, 0.7)',
+                    'rgba(153, 102, 255, 0.7)',
+                    'rgba(255, 99, 132, 0.7)'
                 ],
                 hoverOffset: 4
             }]
         },
-        options: { responsive: true }
+        options: { 
+            responsive: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Accident Distribution by Road Type'
+                },
+                legend: {
+                    position: 'bottom'
+                }
+            }
+        }
     });
 }
