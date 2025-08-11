@@ -48,10 +48,10 @@ async function initializeMap() {
         
         // **NEW: Filter condition to show markers only if all criteria are met**
         if (
-            properties.total_casualties > 2 &&
-            properties.total_accidents > 2 &&
-            properties.total_fatalities > 2 &&
-            properties.total_grievous_injuries > 2
+            properties.total_casualties > 2 ||
+            properties.total_accidents > 2 ||
+            properties.total_fatalities > 2 ||
+            properties.total_grievous_injuries > 2  
         ) {
             const { coordinates } = feature.geometry;
             const [lon, lat] = coordinates;
