@@ -44,27 +44,37 @@ async function initializeMap() {
 
     // Add markers for each blackspot
     features.forEach(feature => {
-        const { coordinates } = feature.geometry;
         const properties = feature.properties;
-        const [lon, lat] = coordinates;
+        
+        // **NEW: Filter condition to show markers only if all criteria are met**
+        if (
+            properties.total_casualties > 2 &&
+            properties.total_accidents > 2 &&
+            properties.total_fatalities > 2 &&
+            properties.total_grievous_injuries > 2
+        ) {
+            const { coordinates } = feature.geometry;
+            const [lon, lat] = coordinates;
 
-        const marker = L.marker([lat, lon]).addTo(map);
+            const marker = L.marker([lat, lon]).addTo(map);
 
-        // Create popup content with more details
-        const popupContent = `
-            <div style="font-family: Arial, sans-serif;">
-                <h3 style="margin: 0 0 10px 0; color: #004a99;">${properties.name}</h3>
-                <p><strong>District:</strong> ${properties.district}</p>
-                <p><strong>Total Accidents:</strong> ${properties.total_accidents}</p>
-                <p><strong>Total Fatalities:</strong> ${properties.total_fatalities}</p>
-                <p><strong>Total Casualties:</strong> ${properties.total_casualties}</p>
-                <p><strong>Road Type:</strong> ${properties.most_common_road_type}</p>
-            </div>
-        `;
+            // Create popup content with more details
+            const popupContent = `
+                <div style="font-family: Arial, sans-serif;">
+                    <h3 style="margin: 0 0 10px 0; color: #004a99;">${properties.name}</h3>
+                    <p><strong>District:</strong> ${properties.district}</p>
+                    <p><strong>Total Accidents:</strong> ${properties.total_accidents}</p>
+                    <p><strong>Total Fatalities:</strong> ${properties.total_fatalities}</p>
+                    <p><strong>Total Casualties:</strong> ${properties.total_casualties}</p>
+                    <p><strong>Road Type:</strong> ${properties.most_common_road_type}</p>
+                </div>
+            `;
 
-        marker.bindPopup(popupContent);
+            marker.bindPopup(popupContent);
+        }
     });
 }
+
 
 // --- DASHBOARD INITIALIZATION (for dashboard.html) ---
 async function initializeDashboard() {
